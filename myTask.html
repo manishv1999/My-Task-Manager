@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task.css">
+    <title>My Task</title>
+    <style>
+        .main {
+            position: relative;
+            top: 4rem;
+            width: 100%;
+            display: inline-block;
+            /* justify-content: center;
+            align-items: center; */
+            padding-top: 100px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-elem"><a href="task.html">Dashboard</a> </div>
+            <div class="navbar-elem"><a href="myTask.html">MyTask</a> </div>
+            <div class="navbar-elem"><a href="calender.html">Calender</a> </div>
+            <div class="navbar-elem"><a href="">Login</a> </div>
+        </div>
+    </div>
+    <section class="main">
+        <h2>TaskList</h2>
+        <div class="task-btn">
+            <button><a href="newTask.html">Create Task</a></button>
+            <button><a href="completedTask.html">Show Completed Task</a></button>
+        </div>
+        <div class="tasklist">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Description</th>
+                        <th>Priority</th>
+                        <th>Due Date</th>
+                        <th>Action</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- <tr>
+                        <td>xyx</td>
+                        <td>lorem</td>
+                        <td>medium</td>
+                        <td>24-06-24</td>
+                        <td>
+                            <a href="editTask.html" id="edit">Edit</a>
+                            &nbsp;| &nbsp;                    
+                            <a href="" id="delete">Delete</a>
+                        </td>
+                        <td>
+                            <select name="status" id="" >    
+                                <option value="Status">Status</option>
+                                <option value="running">Running</option>
+                                <option value="completed">Completed</option>
+                            </select>
+                        </td>
+                    </tr> -->
+                </tbody>
+            </table>
+        </div>
+        </div>
+    </section>
+
+    <script src="myTask.js"></script>
+</body>
+
+</html>

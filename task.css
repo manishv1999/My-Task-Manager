@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+.navbar{
+    width: 100vw;
+    position:fixed;
+    z-index: 2;
+}
+.navbar-container{
+    background-color: burlywood;
+    width: 80vw;
+    height: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 10vw 1.5rem 10vw;
+}
+.navbar-elem{
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.navbar-elem a{
+    text-decoration: none;
+    color: #000;
+}
+.navbar-elem a:hover{
+    text-decoration: underline;
+}
+
+.main{
+    position: relative;
+    top: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    padding-top: 100px;
+}
+.task-table{
+    width: 216px;
+    height: auto;
+}
+table{
+    border-collapse:collapse ;
+}
+td,th{
+    border: 1px solid black;
+    text-align: center;
+    padding: 2rem;
+}
+
+/* .calender-table{
+} */
